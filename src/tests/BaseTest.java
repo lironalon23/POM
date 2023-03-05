@@ -57,7 +57,9 @@ public class BaseTest {
             settingBrowser(browser);
 
 
-
+        @Before
+        public void openBrowser () {
+            driver.get("https://www.buyme.co.il/");
 
         }
 
